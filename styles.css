@@ -2,6 +2,8 @@ body{
     margin: 0;
     padding: 0;
     background-color:rgba(85, 162, 165, 1);
+    font-family: sans-serif;
+    font-size: xx-large;
 }
 #wrapper{
     position: relative;
