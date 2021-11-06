@@ -1,0 +1,102 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color:rgba(85, 162, 165, 1);
+}
+#wrapper{
+    position: relative;
+    margin: 0 auto;
+    width: 900px;
+    height: 755px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap; 
+}
+.setup{
+    background-color: aquamarine;
+    margin: 9px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.square{
+    width: 350px;
+    height: 350px;
+    border: 1px solid black;
+}
+.rectangle{
+    width: 430px;
+    height: 350px;
+    border: 1px solid black;
+}
+#square-one{
+    position: fixed;
+    top: 4%;
+    left: 28%;
+}
+#square-one:hover{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:rgba(85, 162, 165, 0.6);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 900px;
+    height: 750px;
+    z-index: 25;
+}
+#square-two{
+    position: fixed;
+    top: 4%;
+    right: 28%;
+}
+#square-two:hover{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:rgba(85, 162, 165, 0.6);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 900px;
+    height: 750px;
+    z-index: 20;
+}
+#square-three{
+    position: fixed;
+    top: 37%;
+    left: 28%;
+}
+#square-three:hover{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:rgba(85, 162, 165, 0.6);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 900px;
+    height: 750px;
+    z-index: 15;
+}
+#square-four{
+    position: fixed;
+    top: 37%;
+    right: 28%;
+    z-index: 10;
+}
+#square-four:hover{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:rgba(85, 162, 165, 0.6);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 900px;
+    height: 750px;
+    z-index: 10;
+}
